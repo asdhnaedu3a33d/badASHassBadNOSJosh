@@ -17,6 +17,7 @@ class Belanja_langsung extends CI_Controller
 
 	function index()
 	{
+		//nyobak nyonyo
 		//$this->output->enable_profiler(TRUE);
 		$this->auth->restrict();
 		$data['url_add_data'] = site_url('belanja_langsung/edit_data');
