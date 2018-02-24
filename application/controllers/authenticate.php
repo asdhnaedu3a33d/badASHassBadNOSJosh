@@ -19,6 +19,7 @@ class Authenticate extends CI_Controller
     public function __construct()
 	{
 	// jos
+	//coba deesudi
 		$this->CI =& get_instance();
 		parent::__construct();
 		$this->load->helper(array('form','url', 'text_helper','date'));
